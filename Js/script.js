@@ -62,15 +62,11 @@ function mostrarDedicatoria() {
     const signature = document.getElementById('signature');
     
     // Texto de dedicatoria (personalizado y romántico)
-    const texto = `Mi amor, Sthepany:
+    const texto = `Andrés:
 
-Desde aquel 27 de Marzo de 2023, mi vida cambió para siempre. Cada día a tu lado ha sido un regalo que atesoro en lo más profundo de mi corazón.
+Eres el lugar donde mi corazón siempre quiere volver. Gracias por amarme tan bonito, por ser mi paz y mi felicidad todos los días. No necesito más cuando te tengo a ti.
 
-Eres la razón de mis sonrisas, la calma en mis tormentas y la luz que ilumina cada uno de mis días. Tu amor me ha enseñado que la felicidad más grande está en los pequeños momentos compartidos contigo.
-
-Gracias por ser mi compañera, mi confidente, mi todo. Gracias por amarme tal como soy y por construir conmigo este hermoso camino.
-
-Te amo hoy, mañana y siempre.`;
+Te amo infinito  ❤️`;
     
     // Efecto typing para la dedicatoria - VISIBLE COMPLETO
     let index = 0;
@@ -82,7 +78,7 @@ Te amo hoy, mañana y siempre.`;
         } else {
             // Mostrar firma cuando termine
             setTimeout(() => {
-                signature.textContent = "Con todo mi amor, Williams";
+                signature.textContent = "Tuya, Karen";
                 signature.classList.add('visible');
             }, 500);
         }
@@ -93,7 +89,7 @@ Te amo hoy, mañana y siempre.`;
 
 function mostrarContador() {
     const contador = document.getElementById('contador-dias');
-    const fechaInicio = new Date('2023-03-27');
+    const fechaInicio = new Date('2020-02-15');
     
     function actualizarContador() {
         const ahora = new Date();

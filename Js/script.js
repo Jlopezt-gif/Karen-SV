@@ -89,7 +89,7 @@ Te amo infinito  ❤️`;
 
 function mostrarContador() {
     const contador = document.getElementById('contador-dias');
-    const fechaInicio = new Date('2020-02-15');
+    const fechaInicio = new Date('2025-02-15');
     
     function actualizarContador() {
         const ahora = new Date();
